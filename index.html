@@ -11,8 +11,13 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
     <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <!-- FLEXSLIDER CSS -->
     <link href="assets/css/flexslider.css" rel="stylesheet" />
+    <!-- TESTIMONIAL SECTION CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <!-- Google	Fonts -->
@@ -21,8 +26,8 @@
 </head>
 
 <body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+    <!--NAVBAR SECTION STARTS-->
+    <div class="navbar navbar-inverse navbar-fixed-top " id="menu" style="background-color: transparent;">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -30,14 +35,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/index.html"><img class="logo-custom" src="assets/img/logo180-50.png" alt="" /></a>
+                <a class="navbar-brand" href="/index.html"><img class="logo-custom" src="assets/img/logo180-50.png"
+                        alt="" /></a>
             </div>
             <div class="navbar-collapse collapse move-me">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/index.html">HOME</a></li>
                     <li><a href="#features-sec">SERVICES</a></li>
                     <li><a href="#course-sec">COURSES</a></li>
-                    <li><a href="ContactUs.html">CONTACT</a></li>
+                    <li><a href="/ContactUs.html">CONTACT</a></li>
                     <li><a href="/pricing.html">PRICING</a></li>
                 </ul>
             </div>
@@ -45,20 +51,24 @@
         </div>
     </div>
     <!--NAVBAR SECTION END-->
+
+    <!--HOME SECTION STARTS-->
     <div class="home-sec" id="home">
         <div class="overlay">
             <div class="container">
                 <div class="row text-center ">
                     <div class="col-lg-12  col-md-12 col-sm-12">
 
-                        <div class="flexslider set-flexi" id="main-section">
-                            <h1>TOP EXPERTS, TOP RESULTS</h1>
+                        <div class="flexslider set-flexi" id="main-section"
+                            style="font-family: 'Source Sans Pro', sans-serif;">
+                            <h1>LEADING EXPERTS, <br>EXCEPTIONAL RESULTS</h1>
 
-                            <h3>
-                                No.1 Website For Students in Europe, US and Gulf Providing Homework Help, Exam Help and
-                                Online Classes.
-                            </h3>
-                            <h3>24 x 7 Helping Hands | 1000+ Smiling Students | Always in your Budget</h3>
+                            <p>
+                                No.1 Website For Students in Europe, US and Gulf<br> Providing Homework Help, Exam Help
+                                and
+                                Online <br>Classes.
+                            </p>
+                            <p>24 x 7 Helping Hands | 1000+ Smiling Students | <br>Always in your Budget</p>
                         </div>
                     </div>
                 </div>
@@ -67,6 +77,8 @@
 
     </div>
     <!--HOME SECTION END-->
+
+    <!--HOME SECTION TAG LINE STARTS-->
     <div class="tag-line">
         <div class="container">
             <div class="row  text-center">
@@ -81,138 +93,127 @@
 
     </div>
     <!--HOME SECTION TAG LINE END-->
+
+    <!--SERVICE SECTION STARTS-->
+    <!--HEADER LINE STARTS-->
     <div id="features-sec" class="container set-pad">
         <div class="row text-center">
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                <h1 data-scroll-reveal="enter from the bottom after 0.2s" class="header-line">Our Excellent Services
+                <h1 data-scroll-reveal="enter from the bottom after 0.2s" class="header-line">Our Top-Notch Services
                 </h1>
 
             </div>
 
         </div>
-        <!--/.HEADER LINE END-->
+        <!--HEADER LINE END-->
 
 
         <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
             <div class="about-div">
                 <a href="/online_Tutoring.html" style="text-decoration: none; color: black;">
-                    <i class="fa fa-bolt fa-4x icon-round-border"></i>
+                    
+                    <img src="/assets/img/Service/online_tutoring.jpg" alt="">
                     <h3>Online Tutoring</h3>
                     <hr />
                     <hr />
                 </a>
-                <!-- <a href="#" class="btn btn-info btn-set">Whatsapp Us</a> -->
+               
             </div>
         </div>
         <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
             <div class="about-div">
                 <a href="/test_prepration.html" style="text-decoration: none; color: black;">
-                    <i class="fa fa-bolt fa-4x icon-round-border"></i>
-                    <h3>Test Preperation</h3>
+                    
+                    <img src="/assets/img/Service/test_prepration.jpg" alt="">
+                    <h3>Test Preparation</h3>
                     <hr />
                     <hr />
                 </a>
-                <!-- <a href="#" class="btn btn-info btn-set">Whatsapp Us</a> -->
+               
             </div>
         </div>
         <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
             <div class="about-div">
                 <a href="/homework_help.html" style="text-decoration: none; color: black;">
-                    <i class="fa fa-magic fa-4x icon-round-border"></i>
+                   
+                    <img src="/assets/img/Service/homework_help.jpg" alt="">
                     <h3>HomeWork Help</h3>
                     <hr />
                     <hr />
                 </a>
-                <!-- <a href="#" class="btn btn-info btn-set">Whatsapp Us</a> -->
+            
             </div>
         </div>
 
 
     </div>
-    </div>
-    <!-- FEATURES SECTION END-->
-    <div id="faculty-sec">
-        <div class="container set-pad">
-            <div class="row text-center">
-                <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                    <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">3 Steps Towards
-                        Top Grades </h1>
-                </div>
 
+    <!-- SERVICE SECTION END-->
+
+    <!--STEPS SECTION STARTS-->
+
+    <div class="wrapper">
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">3 Steps Towards Top Grades!</h2>
+        <div class="team">
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/3Steps/step1.png" alt="Team_image">
+                </div>
+                <h3 style="font-weight: 600;">CONTACT US ON WHATSPP</h3>
+                <hr />
+                <p>Ping Us on WhatsApp and provide details of what you're looking for?</p>
             </div>
-            <!-- HEADER LINE END -->
-
-            <div class="row">
-
-
-                <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
-                    <div class="faculty-div">
-                        <!-- <img src="assets/img/faculty/1.jpg" class="img-rounded" /> -->
-                        <h3>Contact Us on Whatsapp</h3>
-                        <hr />
-                        <p>
-                            Tell us About your Requirements.<br>
-                            Exam Help<br>
-                            Online Tutoring Help, Homework Help,etc.
-
-
-                        </p>
-                    </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/3Steps/step2.png" alt="Team_image">
                 </div>
-                <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
-                    <div class="faculty-div">
-                        <!-- <img src="assets/img/faculty/2.jpg" class="img-rounded" /> -->
-                        <h3>Talk to Our Best Expert </h3>
-                        <hr />
-                        <p>
-                            For a Free Demo session.
-
-                        </p>
-                    </div>
+                <h3 style="font-weight: 600;">TALK TO OUR BEST EXPERT</h3>
+                <hr />
+                <p>Have a Free Demo Session. Chat with Our Expert Advisor. Have one-on-one Problem Discussion.</p>
+            </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/3Steps/step3.png" alt="Team_image">
                 </div>
-                <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
-                    <div class="faculty-div">
-                        <!-- <img src="assets/img/faculty/3.jpg" class="img-rounded" /> -->
-                        <h3>Make Payment and Get Help</h3>
-                        <hr />
-                        <p>
-                            If You are Satisfied with the demo sessions; Make the payment and get help.
-
-                        </p>
-                    </div>
-                </div>
-
+                <h3 style="font-weight: 600;">MAKE PAYMENT AND GET HELP</h3>
+                <hr />
+                <p>If you are pleased with Demo Session; Proceed with the payment and unlock our expert HELP.</p>
             </div>
         </div>
     </div>
-    <!-- FACULTY SECTION END-->
+
+    <!--STEPS SECTION END-->
+
+
+    <!--COURSES SECTION STARTS-->
     <div id="course-sec" class="container set-pad">
         <div class="row text-center">
             <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR COURSES </h1>
+                <h1 data-scroll-reveal="enter from the bottom after 0.2s" class="header-line">We offer assistance in
+                    100+ subjects
+                </h1>
 
             </div>
 
         </div>
-        <!--/.HEADER LINE END-->
 
-
-        <div class="row set-row-pad">
-            <!-- 1st row -->
+        <div class="row set-row-pad" id="subjects">
             <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
-                        <div class="panel-heading">
+
+                        <div class="panel-heading" id="course1">
                             <h4 class="panel-title">
                                 <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
                                     href="#collapse1" class="collapsed">
-                                    <strong> Physics</strong>
+                                    <strong style="font-size: 25px;"> Physics</strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>Hire a Physics Expert for Online Physics Tutoring & Physics homework-help in
+                                <p style="font-weight: 600;">Hire a Physics Expert for Online Physics Tutoring & Physics
+                                    homework-help in
                                 <ul>
                                     <li>CBSE & ICSE Physics</li>
                                     <li>AP(AP Physics-1, AP Physics-2, AP Physics C)</li>
@@ -226,17 +227,18 @@
                         </div>
                     </div>
                     <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
-                        <div class="panel-heading">
+                        <div class="panel-heading" id="course2">
                             <h4 class="panel-title">
                                 <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
                                     href="#collapse2" class="collapsed">
-                                    <strong> Electrical Engineering</strong>
+                                    <strong style="font-size: 25px;"> Electrical Engineering</strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>Hire a Electrical Engineering Expert for Online Tutoring , Exam & Homework-help in
+                                <p style="font-weight: 600;">Hire a Electrical Engineering Expert for Online Tutoring ,
+                                    Exam & Homework-help in
                                 <ul>
                                     <li>Electrical Circuit Analysis</li>
                                     <li>Analog Electronics</li>
@@ -250,188 +252,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse8" class="collapsed">
-                                    <strong> Commputer Science</strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse8" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    We provide computer science (CS) tutoring and homework help in:
-                                <ul>
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>JavaScript</li>
-                                    <li>C/C++ Programming</li>
-                                    <li>MATLAB, Minitab, R, SPSS, ANOVA, SAS</li>
-                                    <li>SolidWorks, AutoCAD, MATLAB etc</li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse3" class="collapsed">
-                                    <strong> Calculus</strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse3" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    Get online Calculus tutoring & Calculus homework help in<br>
-                                <ul>
-                                    <li>PreCalculus</li>
-                                    <li>Calculus-1</li>
-                                    <li>Calculus-2</li>
-                                    <li>Calculus-3</li>
-                                    <li>Differential Equations</li>
-                                    <li>AP Calculus(AP Calculus AB & AP Calculus BC)</li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse4" class="collapsed">
-                                    <strong> Mathematics</strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse4" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    We provide online Math tutoring and Math homework help in
-                                <ul>
-                                    <li>Calculus</li>
-                                    <li>Statistics</li>
-                                    <li>BioStatistics</li>
-                                    <li>Discrete Math</li>
-                                    <li>Algebra (Pre-Algebra, Algebra 1, Algebra 2, College Algebra)</li>
-                                    <li>Linear Algebra</li>
-                                    <li>Geometry</li>
-                                    <li>Trigonometry etc</li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse6" class="collapsed">
-                                    <strong>Mechanical Engineering </strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse6" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    We provide online tutoring & homework help in:
-                                <ul>
-                                    <li>Engineering Mechanics</li>
-                                    <li>Statics (Mechanics-1)</li>
-                                    <li>Dynamics (Mechanics-2)</li>
-                                    <li>Fluid Mechanics</li>
-                                    <li>Thermodynamics</li>
-                                    <li>SolidWorks. AutoCAD, MATLAB,etc</li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse7" class="collapsed">
-                                    <strong> Civil Engineering</strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse7" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    We provide online tutoring and homework help with:
-                                <ul>
-                                    <li>Structural Analysis</li>
-                                    <li>Soil Mechanics</li>
-                                    <li>Mechanics (Statics, Dynamics)</li>
-                                    <li>Mechanics/Strength of Materials</li>
-                                    <li>Structural Engineering</li>
-                                    <li>Geotechnical Engineering</li>
-                                    <li>Surveying, Environmental engineering, Highway engineering etc</li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
-                            <h4 class="panel-title">
-                                <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapse9" class="collapsed">
-                                    <strong> Statistics</strong>
-                                </a>
-                            </h4>
-                        </div>
-                        <div id="collapse9" class="panel-collapse collapse" style="height: 0px;">
-                            <div class="panel-body">
-                                <p>
-                                    We provide online Statistics tutoring and Statistics homework help with
-                                <ul>
-                                    <li>AP Statistics</li>
-                                    <li>Business Statistics</li>
-                                    <li>BioStatistics</li>
-                                    <li>Probability</li>
-                                    <li>Statistical tools like Microsoft Excel, MATLAB, Minitab, R, SPSS, ANOVA, SAS etc
-                                    </li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
-                        <div class="panel-heading">
+                        <div class="panel-heading" id="course9">
                             <h4 class="panel-title">
                                 <a style="text-decoration: none;" data-toggle="collapse" data-parent="#accordion"
                                     href="#collapse10" class="collapsed">
-                                    <strong> More Subjects</strong>
+                                    <strong style="font-size: 25px;"> More Subjects</strong>
                                 </a>
                             </h4>
                         </div>
                         <div id="collapse10" class="panel-collapse collapse" style="height: 0px;">
                             <div class="panel-body">
-                                <p>
+                                <p2>
 
-                                <ul>
-                                    <li>Chemistry, AP Chemistry, Organic Chemistry, Physical Chemistry </li>
-                                    <li>Biology, AP Biology, Anatomy </li>
-                                    <li>Foreign Languages- Hindi, French, English </li>
-                                    <li>Psychology, Geology, Accounts, Finance</li>
-                                    <li>Economics, Microeconomics, AP Macroeconomics, AP Microeconomics </li>
-                                </ul>
-                                <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get Started</a>
-                                </p>
+                                    <ul>
+                                        <li>Chemistry, AP Chemistry, Organic Chemistry, Physical Chemistry </li>
+                                        <li>Biology, AP Biology, Anatomy </li>
+                                        <li>Foreign Languages- Hindi, French, English </li>
+                                        <li>Psychology, Geology, Accounts, Finance</li>
+                                        <li>Economics, Microeconomics, AP Macroeconomics, AP Microeconomics </li>
+                                    </ul>
+                                    <a href="/ContactUs.html" class="btn btn-info btn-set">Whatsapp Us to get
+                                        Started</a>
+                                    </p>
                             </div>
                         </div>
                     </div>
@@ -443,7 +287,192 @@
 
         </div>
     </div>
+    <div class="btnn" style="margin-bottom: 20px;">
+        <a href="/Course.html">Read More</a>
+    </div>
     <!-- COURSES SECTION END-->
+
+    <!--WHY US SECTION STARTS-->
+
+    <div class="Whywrapper">
+
+        <div class="background-container">
+            <div class="bg-1"></div>
+            <div class="bg-2"></div>
+
+        </div>
+        <div class="about-container">
+
+            <div class="image-container">
+                <img src="/assets/img/WhyUS.png" alt="">
+
+            </div>
+
+            <div class="text-container">
+                <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" style="font-size: 35px;">
+                    Why choose us?</h1>
+                <p>
+                <ul>
+                    <li>24*7 WhatsApp helpline for timely and plagiarism-free solutions.</li>
+                    <li>Get flawless answers with us.</li>
+                    <li>Achieve top grades with our team of expert tutors.</li>
+                </ul>
+                </p>
+                <a href="/WhyUs.html">Read More</a>
+            </div>
+
+        </div>
+    </div>
+    <!--WHY US SECTION END-->
+
+
+
+    <!--TUTORS SECTION STARTS-->
+    <div class="team" id="team-home">
+        <div class="team-section">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">Our esteemed team
+                            of Top Tutors!</h1>
+                        <p> Each of them is committed to your success and will go above and beyond to ensure you reach
+                            your full potential. Get ready to embark on a transformative learning experience with our
+                            Top Tutors!</p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="Tcard">
+                        <div class="image-section">
+                            <img src="/assets/img/Tutor/Siddhant.png" alt="">
+                        </div>
+                        <div class="Tcontent">
+                            <h3>Siddhant Maurya</h3>
+                            <h4>Student’s Rating: <span>4.98</span>/5</h4>
+                            <h5>Knowledge 98%</h5>
+                            <h5>Speed 95%</h5>
+                            <h5>Accuracy 99%</h5>
+                            <p>I am physics, electrical and electronics expert. I have expertise in AP Physics-1, AP
+                                Physics-1, AP Physics-C and Cambridge IGCSE Physics. </p>
+                            <p> I have a deep understanding of:
+                            <ul>
+                                <li>Mechanics and Thermodynamics</li>
+                                <li>Electrostatics</li>
+                                <li>Magnetism and Electromagnetism</li>
+                                <li>Optics, Waves</li>
+                                <li>Modern physics</li>
+                            </ul>
+                            </p>
+                            <p>Connect with me for a 1:1 private Physics Tutoring session. Too busy with your studies?
+                                Get Homework help in Physics, lab reports etc as well.</p>
+                        </div>
+                    </div>
+                    <div class="Tcard">
+                        <div class="image-section">
+                            <img src="/assets/img/Tutor/SNCRay.png" alt="">
+                        </div>
+                        <div class="Tcontent">
+                            <h3>SNC Ray</h3>
+                            <h4>Student’s Rating: <span>4.95</span>/5</h4>
+                            <h5>Knowledge 97%</h5>
+                            <h5>Speed 95%</h5>
+                            <h5>Accuracy 98%</h5>
+                            <p>I am a Biochemist and am always eager to solve biology quiz of junior level
+                                to A+ level whether it is CBSE , N Delhi curriculum or IB or AP or ICSE.
+                            </p>
+                            <p> I have a deep understanding of:
+                            <ul>
+                                <li>Plant and Animal Physiology</li>
+                                <li>General Biochemistry</li>
+                                <li>Cell Signalling</li>
+                                <li>Cell and Molecular Biology</li>
+                                <li>Medical Biochemistry</li>
+                            </ul>
+                            </p>
+                            <p>If you are looking for suitable guide to achieve your target in biological sciences
+                                just let me have an opportunity to satisfy your quest.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="Tcard">
+                        <div class="image-section">
+                            <img src="/assets/img/Tutor/Akanksha.jpg" alt="">
+                        </div>
+                        <div class="Tcontent">
+                            <h3>Akanksha Mittal</h3>
+                            <h4>Student’s Rating: <span>4.93</span>/5</h4>
+                            <h5>Knowledge 95%</h5>
+                            <h5>Speed 93%</h5>
+                            <h5>Accuracy 97%</h5>
+                            <p>Pursuing B.Tech in Information Technology from Banasthali Vidhyapith. I can tutor you
+                                online and help you to ace top grades in your exams.</p>
+                            <p> I have a deep understanding of:
+                            <ul>
+                                <li>Data structures and algorithms</li>
+                                <li>Programming languages such as C/C++</li>
+                                <li>HTML, CSS, JavaScript</li>
+                                <li>Database Management</li>
+                            </ul>
+                            </p>
+                            <p>Get Stuck with bugs! Don't worry—I've got your back! Together, we will overcome
+                                challenges, unravel the complexities, and help you achieve your academic goals in
+                                computer science.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="btnn" style="margin-bottom: 50px; margin-top: 50px;">
+        <a href="/tutor.html">Read More</a>
+    </div>
+
+    <!--TUTORS SECTION END-->
+
+
+
+
+    <!--TESTIMONIAL SECTION STARTS-->
+
+    <div class="wrapper">
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">Clients Reviews</h2>
+        <div class="team">
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/Review.jpeg" alt="Team_image">
+                </div>
+                <h3>Md. Murtaza</h3>
+                <p class="role">Canada, North America</p>
+                <p>Siddhant has helped me with assignments, tests prep and so much more! He's one of the many reasons I
+                    was successfully able to complete my mechanical engineering degree. His knowledge of engineering and
+                    commitment to his students is second to none!</p>
+            </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/Review.jpeg" alt="Team_image">
+                </div>
+                <h3>Pooja</h3>
+                <p class="role">USA</p>
+                <p>I wanted to thank you for helping me with physics this semester. I ended up scoring 24/25 on my final
+                    exam and I couldn't have done it without your help. I was failing the class before my dad contacted
+                    you for the help and in the end , I ended up with one of the top scores in class.</p>
+            </div>
+            <div class="team_member">
+                <div class="team_img">
+                    <img src="/assets/img/Review.jpeg" alt="Team_image">
+                </div>
+                <h3>Aneel Bhatia</h3>
+                <p class="role">USA</p>
+                <p>It was an absolute pleasure working with Siddhant Sir. He taught my daughter AP Physics-1 and AP
+                    Physics-2. He explained all concepts very nicely till the student understood it. He used various
+                    ways to explain the concepts. I strongly recommend this platform to boost up your grades.</p>
+            </div>
+        </div>
+    </div>
+    <!--TESTIMONIAL SECTION ENDS-->
+
+    <!-- CONTACT SECTION STARTS-->
 
     <div class="container">
         <div class="row set-row-pad">
@@ -464,7 +493,7 @@
             <div class=" col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1"
                 data-scroll-reveal="enter from the bottom after 0.4s">
 
-                <h2><strong>Social Conectivity </strong></h2>
+                <h2><strong>Social Connectivity </strong></h2>
                 <hr />
                 <div>
                     <a href="#"> <img src="assets/img/Social/facebook.png" alt="" /> </a>
@@ -477,6 +506,8 @@
         </div>
     </div>
     <!-- CONTACT SECTION END-->
+
+    <!--FOOTER SECTION STARTS-->
     <div id="footer" style="text-align:center">
         <p> 25+ Subjects | 5100+ Assignments solved | 3000+ Tutoring sessions | 1000+
             Happy Students | 700+ 5 Star Reviews
@@ -536,7 +567,7 @@
                     <span style="color: #ff6600;">Blog</a></span></span>
         </p> -->
         &copy 2014 OwnTeacher.com | All Rights Reserved |
-        Designed by : Sagar Pandit ( skp10092001@gmail.com )
+        Designed by : Akanksha Mittal ( reachoutakanksha@gmail.com )
     </div>
     <!-- FOOTER SECTION END-->
 

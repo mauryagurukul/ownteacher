@@ -182,7 +182,7 @@ body {
     padding-bottom: 5px;
     padding-top: 25px;
     color: rgb(34, 34, 70);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 h1::after {
@@ -689,7 +689,7 @@ h1::after {
       min-height: 80vh;
       position: absolute;
       background-color: white;
-      box-shadow: 24px 24px 30px #7577bd;
+      /* box-shadow: 24px 24px 30px #7577bd; */
       display: flex;
       justify-content: center;
       align-items: center;
@@ -715,6 +715,7 @@ h1::after {
       align-items: flex-start;
       flex-direction: column;
       font-size: 22px;
+      color: #000;
   }
   .text-container h1{
       font-size: 18px;
@@ -1064,5 +1065,53 @@ h1::after {
       }
   }
 
+  /*=====================================
+  About us page  STYLES 
+  ===================================*/
+  .founderDiv{
+    display: flex;
+  }
+  .founderContent{
+    width: 60%;
+    padding:50px ;
+    
+  }
+  .founderImg img{
+    width: 550px;
+    height:550px;
+  }
 
- 
+  .founder{
+    height:550px;
+    width:7px;
+    background-color: #31275C;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+
+  .founderDiv .founderContent h1{
+            font-size: 50px;
+  }
+  .founderDiv .founderContent h2{
+   font-weight: 600;
+   padding-bottom: 20px;
+}
+.founderDiv .founderContent h3{
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.founderDiv .founderContent p{
+  font-size: 18px;
+}
+@media screen and (max-width:768px){
+  .founderDiv{
+    display: block;
+  }
+  .founderContent{
+    width: 100%;
+    text-align: center;
+  }
+  .founderImg img{
+    display: block;
+  }
+}
